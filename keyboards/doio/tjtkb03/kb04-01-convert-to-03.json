@@ -1,0 +1,42 @@
+{
+  "name": "DOIO KB03-01",
+  "vendorId": "0xD010",
+  "productId": "0x0401",
+  "matrix": {
+    "rows": 1,
+    "cols": 5
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
+  "layouts": {
+    "keymap": [
+     ["0,3"],
+      [
+        "0,0",
+        "0,1",
+        "0,2"
+        
+      ],
+      [
+        {
+          "x": 1.5,
+          "y": 1
+        },
+        "0,4\n\n\n\n\n\n\n\n\ne0"
+      ]
+,
+      [
+        {
+          "x": 1.5,
+          "y": 1
+        },
+        "\n\n\n\n\n\n\n\n\ne1"
+      ]
+
+    ]
+  }
+}
